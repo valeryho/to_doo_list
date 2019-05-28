@@ -1,0 +1,2 @@
+var task=document.querySelector(".inputtask").value,task_area=document.querySelector(".task_area"),add_task=document.querySelector(".add_task");function Add_task_func(){var e=document.querySelector(".inputtask").value;console.log(e);var a=document.createElement("div"),t=document.createElement("div");t.innerHTML=e,a.appendChild(t),task_area.appendChild(a)}add_task.addEventListener("click",Add_task_func);
+//# sourceMappingURL=main.js.map
